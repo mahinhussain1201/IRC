@@ -1,0 +1,55 @@
+* {
+  border: border-box;
+  padding-top: 10px;
+  margin: 0;
+}
+
+header img:hover {
+  transform: rotateY(360deg);
+  transition-duration: 2s;
+  transition-delay: 0s;
+  transition-timing-function: linear;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  height: 160px;
+  width: 160px;
+  border: 2px dashed orange;
+  border-radius: 50%;
+}
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  font-variant: small-caps;
+  font-weight: 550;
+  border: 2px solid orange;
+}
+
+.top {
+  color: green;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  background-color: orange;
+  color: green;
+  width: 100%;
+  height: 100%;
+}
